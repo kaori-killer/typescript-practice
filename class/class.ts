@@ -31,7 +31,7 @@ class Dict {
 
 class Word {
     constructor(
-        public term: string,
+        public readonly term: string,
         public def: string,
     ) {}
 }
